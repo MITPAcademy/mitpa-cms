@@ -4,15 +4,15 @@ import {visionTool} from '@sanity/vision'
 import {schemaTypes} from './schemaTypes'
 
 export default defineConfig({
-  name: 'default',
-  title: 'mitpa-cms',
+    name: 'default',
+    title: 'mitpa-cms',
 
-  projectId: 'f77le0x7',
-  dataset: 'production',
+    projectId: 'f77le0x7',
+    dataset: 'production',
 
-  plugins: [structureTool(), visionTool()],
+    plugins: [structureTool(), visionTool()],
 
-  schema: {
-    types: schemaTypes,
-  },
+    schema: {
+        types: schemaTypes,
+    },
 })
