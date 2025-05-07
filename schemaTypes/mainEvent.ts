@@ -8,6 +8,7 @@ export const mainEvent = defineType({
         defineField({ name: 'name', title: 'Name', type: 'string' }),
         defineField({ name: 'date', title: 'Date', type: 'datetime' }),
         defineField({ name: 'description', title: 'Description', type: 'text' }),
+        defineField({name: 'image', title: 'Image', type: 'url'}),
         defineField({ name: 'link', title: 'Link', type: 'url' }),
     ],
 });
